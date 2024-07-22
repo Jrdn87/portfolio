@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: 20px auto; /* Centre le conteneur et ajoute un peu d'espace */
+  background-color: floralwhite;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre pour un effet de profondeur */
+}
+
+header,
+main,
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 2px;
+  background-color: #f1f1f1;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.navbar a {
+  margin-left: 10px;
+}
